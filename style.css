@@ -1,0 +1,121 @@
+
+html,body{
+    padding: 0;
+    margin: 0 auto;
+
+}
+main{
+    background-image: url(images/bg-main_visual.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+main a{
+    display: block;
+   padding: 370px 100px 0 50px;
+}
+.imagine{
+    text-align: center;
+    height: 400px;
+}
+.imagine p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 50px;
+
+}
+h1{
+    font-size: 35px;
+    padding-top: 50px;
+}
+.design{
+    background-image: url(images/bg-content.jpg) ;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+.row{
+    display: flex;
+    padding: 10px;
+}
+.row-2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.col-i,.col{
+    width: 50%;
+    padding: 5px;
+}
+.col{
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+.design img{
+    width: 100%;
+}
+
+.client{
+    text-align: center;
+
+}
+.client p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 50px;
+}
+.icons{
+    width: 80%;
+    margin: 0 auto;
+    /* flex-direction: row; */
+    display: flex;
+}
+.client a{
+    padding: 5px;
+    margin: auto;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: right;
+    display: block;
+    padding: 10px;
+}
+footer h5{
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+
+@media(max-width:700px){
+  
+    .row-2,.row{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .col-i,.col{
+        width: 100%;
+        padding: 10px;
+    }
+    .icons{
+        width: 100%;
+        margin: 0 auto;
+         flex-direction: column; 
+        display: flex;
+    }
+
+   
+}
