@@ -1,4 +1,3 @@
-
 html,body{
     padding: 0;
     margin: 0 auto;
@@ -15,19 +14,18 @@ main a{
     display: block;
    padding: 370px 100px 0 50px;
 }
-.imagine{
-    text-align: center;
-    height: 400px;
-}
+
 .imagine p{
     font-size: 20px;
     letter-spacing: 2px;
     padding: 50px;
+    text-align: center;
 
 }
 h1{
     font-size: 35px;
     padding-top: 50px;
+    text-align: center;
 }
 .design{
     background-image: url(images/bg-content.jpg) ;
@@ -100,14 +98,19 @@ footer a{
 }
 
 @media(max-width:700px){
-  
+    .container{
+        width: 80%;
+        margin: 0 auto;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.3)
+    }
     .row-2,.row{
         display: flex;
         flex-direction: column;
         padding: 10px;
     }
     .col-i,.col{
-        width: 100%;
+        width: 90%;
         padding: 10px;
     }
     .icons{
@@ -115,6 +118,12 @@ footer a{
         margin: 0 auto;
          flex-direction: column; 
         display: flex;
+    }
+    main a{
+        display: block;
+       display: block;
+    text-align: center;
+    padding: 370px 0;
     }
 
    
